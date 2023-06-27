@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABC Learning Center</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="https://kit.fontawesome.com/848830b72b.js"crossorigin="anonymous"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function () {
+  $("#dropdown").on("click", () => {
+    $("#dropdown-menu").toggleClass("show");
+  });
+});
+
+$(document).on("click", function (event) {
+  const trigger = $("#dropdown");
+  if (trigger !== event.target && !trigger.has(event.target).length) {
+    $("#dropdown-menu").removeClass("show");
+  }
+});
+</script>
+
+<script>
+  $(document).ready(function () {
+    $("#dropdowns").on("click", () => {
+      $("#dropdown-menus").toggleClass("show");
+    });
+  });
+  
+  $(document).on("click", function (event) {
+    const trigger = $("#dropdowns");
+    if (trigger !== event.target && !trigger.has(event.target).length) {
+      $("#dropdown-menus").removeClass("show");
+    }
+  });
+  </script>
+</head>
+  <body>
+<!-- nav bar -->
+<nav>
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <div class="nav-logo">
+          <img src="Images/logo.jpg" alt="ABC" />
+          <p>ABC<span>LEARNING<spans>CENTER</spans></span></p>
+        </div>
+      </a>
+      <ul class="nav-links">
+            <li class="nav-link"><a href="index.html"  style="color: #fff;">HOME</a></li>
+            <li class="nav-link"><a href="about.html"  style="color: #fff;">ABOUT</a></li>
+            <li class="nav-link"><a href="contact.html"  style="color: #fff;">CONTACT</a></li>
+            
+            
+            <li class="nav-link dropdown" id="dropdown">
+          <a id="dropdown-link" style="color: #fff;">Course <i class="fa-solid fa-caret-down"></i></a>
+            <ul class="dropdown-menu" id="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="courses.html">
+                  All Courses
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="java.html">
+                  Programming in Java
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="net.html">
+                Programming in .Net
+                </a>
+              </li>
+              
+            </ul>
+          </li>
+          <li class="nav-link dropdowns" id="dropdowns">
+            <a id="dropdown-links" style="color: #fff;">Course Schedule <i class="fa-solid fa-caret-down"></i></a>
+              <ul class="dropdown-menus" id="dropdown-menus">
+                <li>
+                  <a class="dropdown-items" href="javaschedule.html">
+                    Programming in Java
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-items" href="netschedule.html">
+  
+                    Programming in .Net
+                  </a>
+                </li>
+                
+              </ul>
+            </li>
+         
+          <li class="nav-link"><a href="sitemap.html"  style="color: #fff;">SITEMAP</a></li>
+          <li class="nav-link"><a href="privacy.html"  style="color: #fff;">PRIVACY POLICY</a></li>
+        </ul>
+<!-- login -->
+        <div class="nav-button">
+            <button class="btn-login">Login</button>
+          </div>
+<!-- Sign up -->
+        <div class="nav-buttons">
+          <a href="registration.html" class="btn-signup">Sign Up</a>
+        </div>
+          
+ </nav>
+
+<!-- hero btn -->
+     </i><a href="" class="hero-btn">Apply Now</a>
+<!-- welcome -->
+    <div class="text-box">
+        <div class="welcome-text">
+        <h2 style="color: #000;">WELCOME</h2>
+        <P>We are delighted to welcome you to ABC Learning Center. Whether you are beginning or continuing your educational journey with us, we look forward to learning, exploring, and growing together.at ABC, you are part of a strong center community that values academic excellence and diversity.Paramount to the academic achievement and excellence at ABC is our commitment to equity, and inclusion.As a learning center dedicated to educating our future contributors and leaders, and learning from each other, we encourage one another to foster a community free of intolerance and discrimination, and to promote a campus climate that is respectful, civil, supportive, and safe. These core values allow us to provide a learning environment where we can all pursue our dreams and reach our highest potential</P>
+        </div>
+<!-- img -->
+        <div class="wrapper">
+            <img class="img-three" src="Images/01.jpg.jpg" alt="imgthree">
+    </div>
+    </div>
+<!-- highlighs -->
+    <section class="course">
+        <h1>READY TO FIND YOUT DREAM COURSE?</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+        </p>
+        <div class="row">
+            <div class="course-col">
+                <h1>WE MAKE YOUR<br> DREAMES A <br>REALITY</h1>
+            </div>
+            <div class="course-col">
+                <i class="fa-solid fa-graduation-cap fa-3x"></i>
+                <h1>10+ YEARS<br> of Existence</h1>
+                <i class="fa-solid fa-people-group fa-3x"></i>
+                <h1>OVER 1500<br>success stories</h1>
+            </div>
+            <div class="course-col">
+                <h3>WHY CHOOSE TO STUDY IT WITH US?</h3>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                <i class="fa-solid fa-phone-office"></i>
+                
+            </div>
+        </div>
+    </section>
+<!-- course2 -->
+<section>
+
+    <section class="course-1">
+         
+        <div class="row-1">
+            <div class="course-col-1">
+                 <i class="fa-solid fa-comment-dots fa-4x"></i>
+                 <h1>Welcome to our site. If you need any help simply reply to this message. We are online and ready to reply</h1>  
+        </div>
+            <div class="course-col-1">
+                 <i class="fa-solid fa-phone fa-5x"></i>
+                 <h1>Hotline For Inquiries</h1>
+                 <br><a href="" class="hero-btn1">Call Now</a>
+            </div>
+            <div class="course-col-1">
+                 <h3>Useful Links</h3>
+
+                 <li><a href="#">Online Payment</a></li>
+                 <li><a href="#">Mobile App</a></li>
+                 <li><a href="#">LMS</a></li>
+                 <li><a href="#">Referrals</a></li>
+                 <li><a href="privacy.html">Privacy Policy</a></li>
+            </div>
+        </div>
+    </section>
+ 
+
+     
+ </section>
+ </section>
+</body>
+<!-- footer -->
+<footer>
+    <a href="#" class="list-item"><i class="fa fa-envelope-o fa-x"></i></i>&nbsp; abclearning@gmail.com</a>
+    <a href="#" class="list-item"><i class="fa fa-whatsapp fa-x"></i>&nbsp; +945678934,+947689345</a>
+    <a href="#" class="list-item"><i class="fa fa-map-marker fa-x"></i>&nbsp; abclearning, 4575474, gfhdthdfh, fgd4</a>
+<div class="row">
+<div class="col">
+    <div class="centerdiv">
+        <a href="#" class="list-item-1"><i class="fa fa-cc-visa fa-2x"></i></a>
+        <a href="#" class="list-item-1"><i class="fa fa-cc-discover fa-2x"></i></a>
+        <a href="#" class="list-item-1"><i class="fa fa-credit-card fa-2x"></i></a>
+        <a href="#" class="list-item-1"><i class="fa fa-cc-mastercard fa-2x"></i></a>
+        </div>
+
+        <div class="centerdiv-2">
+            <a href="#" class="list-item-2"><i class="fa fa-envelope-o fa-2x"></i></a>
+            <a href="#" class="list-item-2"><i class="fa fa-linkedin-square fa-2x"></i></a>
+            <a href="#" class="list-item-2"><i class="fa fa-twitter fa-2x"></i></a>
+            <a href="#" class="list-item-2"><i class="fa fa-facebook-official fa-2x"></i></a>
+            <a href="#" class="list-item-2"><i class="fa fa-instagram fa-2x"></i></a>
+            </div>
+</div>
+</div>
+
+<hr>
+<p class="copyright" style="color: #fff;">ABC Learning Center Pvt Ltd ©  All Rights Reserved</p>
+</html>
+
+    

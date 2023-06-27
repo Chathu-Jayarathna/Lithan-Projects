@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABC Learning Center</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="https://kit.fontawesome.com/848830b72b.js"crossorigin="anonymous"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function () {
+  $("#dropdown").on("click", () => {
+    $("#dropdown-menu").toggleClass("show");
+  });
+});
+
+$(document).on("click", function (event) {
+  const trigger = $("#dropdown");
+  if (trigger !== event.target && !trigger.has(event.target).length) {
+    $("#dropdown-menu").removeClass("show");
+  }
+});
+</script>
+
+<script>
+  $(document).ready(function () {
+    $("#dropdowns").on("click", () => {
+      $("#dropdown-menus").toggleClass("show");
+    });
+  });
+  
+  $(document).on("click", function (event) {
+    const trigger = $("#dropdowns");
+    if (trigger !== event.target && !trigger.has(event.target).length) {
+      $("#dropdown-menus").removeClass("show");
+    }
+  });
+  </script>
+</head>
+  <body>
+<!-- nav bar -->
+<nav>
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <div class="nav-logo">
+          <img src="Images/logo.jpg" alt="ABC" />
+          <p>ABC<span>LEARNING<spans>CENTER</spans></span></p>
+        </div>
+      </a>
+      <ul class="nav-links">
+            <li class="nav-link"><a href="index.html"  style="color: #fff;">HOME</a></li>
+            <li class="nav-link"><a href="about.html"  style="color: #fff;">ABOUT</a></li>
+            <li class="nav-link"><a href="contact.html"  style="color: #fff;">CONTACT</a></li>
+            
+            
+            <li class="nav-link dropdown" id="dropdown">
+          <a id="dropdown-link" style="color: #fff;">Course <i class="fa-solid fa-caret-down"></i></a>
+            <ul class="dropdown-menu" id="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="courses.html">
+                  All Courses
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="java.html">
+                  Programming in Java
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="net.html">
+                Programming in .Net
+                </a>
+              </li>
+              
+            </ul>
+          </li>
+          <li class="nav-link dropdowns" id="dropdowns">
+            <a id="dropdown-links" style="color: #fff;">Course Schedule <i class="fa-solid fa-caret-down"></i></a>
+              <ul class="dropdown-menus" id="dropdown-menus">
+                <li>
+                  <a class="dropdown-items" href="javaschedule.html">
+                    Programming in Java
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-items" href="netschedule.html">
+  
+                    Programming in .Net
+                  </a>
+                </li>
+                
+              </ul>
+            </li>
+         
+          <li class="nav-link"><a href="sitemap.html"  style="color: #fff;">SITEMAP</a></li>
+          <li class="nav-link"><a href="privacy.html"  style="color: #fff;">PRIVACY POLICY</a></li>
+        </ul>
+<!-- login -->
+<div class="nav-button">
+  <button class="btn-login">Login</button>
+</div>
+<!-- Sign up -->
+<div class="nav-buttons">
+<a href="registration.html" class="btn-signup">Sign Up</a>
+</div>
+          
+ </nav>
+
+    
+    
+<!---------------------------------------------------------------contact us--------------------------------------------------------------------------->
+
+<div class="container">
+    <div class="topic">
+        <i class="fa-solid fa-graduation-cap fa-4x"></i>
+        <h1>Contact Us</h1>
+        </div>
+    
+    <div class="contact-box">
+    <div class="contact-left">
+        <h3>sent your request</h3>
+        <form>
+            <div class="input-row">
+                <div class="input-group">
+                    <label>First Name</label>
+                    <input type="text" placeholder="Type Here">
+                </div>
+                <div class="input-group">
+                    <label>Last Name</label>
+                    <input type="text" placeholder="Type Here">
+                </div>
+            </div>
+            <div class="input-row">
+                <div class="input-group">
+                    <label>Contact No</label>
+                    <input type="text" placeholder="Type Here">
+                </div>
+                <div class="input-group">
+                    <label>Email</label>
+                    <input type="text" placeholder="Type Here">
+                </div>
+            </div>
+
+            <label>Message</label>
+            <textarea rows="5" placeholder="Your Message"></textarea>
+
+            <button type="submit">Send Message</button>
+            
+        </form>
+    </div>
+    <div class="contact-right">
+        <h3>Reach us</h3>
+        <table>
+            <tr>
+                
+                <td>Phone</td>
+                <td>+948769573, +948765234</td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>abclearning@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Fax</td>
+                <td>+948769573</td>
+            </tr>
+            <tr>
+                <td>Hotline</td>
+                <td>+94579866453, +94117564839</td>
+            </tr>
+        </table>
+        
+        <i-1 class="fa-solid fa-phone fa-2x"></i-1><br>
+        <i-1 class="fa-solid fa-envelope fa-2x"></i-1><br>
+        <i-1 class="fa-solid fa-fax fa-2x"></i-1><br>
+        <i-1 class="fa-solid fa-phone fa-2x"></i-1><br>
+        
+    </div>
+    
+
+    </div>
+
+</div>
+
+</section>
+
+<section class="course">
+
+    <div class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15844.583250771793!2d80.95732899384296!3d6.873126502365011!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae470011c243a85%3A0xd94f7b8a6c4e9867!2sBandarawela!5e0!3m2!1sen!2slk!4v1650698679801!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+</section>
+<!---------------------------------------------------------------footer--------------------------------------------------------------------------->
+     
+<footer>
+    <a href="#" class="list-item"><i class="fa fa-envelope-o fa-x"></i></i>&nbsp; abclearning@gmail.com</a>
+    <a href="#" class="list-item"><i class="fa fa-whatsapp fa-x"></i>&nbsp; +945678934,+947689345</a>
+    <a href="#" class="list-item"><i class="fa fa-map-marker fa-x"></i>&nbsp; abclearning, 4575474, gfhdthdfh, fgd4</a>
+<div class="row">
+<div class="col">
+    <div class="centerdiv">
+        <a href="#" class="list-item-1"><i class="fa fa-cc-visa fa-2x"></i></a>
+        <a href="#" class="list-item-1"><i class="fa fa-cc-discover fa-2x"></i></a>
+        <a href="#" class="list-item-1"><i class="fa fa-credit-card fa-2x"></i></a>
+        <a href="#" class="list-item-1"><i class="fa fa-cc-mastercard fa-2x"></i></a>
+        </div>
+
+        <div class="centerdiv-2">
+            <a href="#" class="list-item-2"><i class="fa fa-envelope-o fa-2x"></i></a>
+            <a href="#" class="list-item-2"><i class="fa fa-linkedin-square fa-2x"></i></a>
+            <a href="#" class="list-item-2"><i class="fa fa-twitter fa-2x"></i></a>
+            <a href="#" class="list-item-2"><i class="fa fa-facebook-official fa-2x"></i></a>
+            <a href="#" class="list-item-2"><i class="fa fa-instagram fa-2x"></i></a>
+            </div>
+</div>
+</div>
+
+<hr>
+<p class="copyright" style="color: #fff;">ABC Learning Center Pvt Ltd ©  All Rights Reserved</p>
+</html>

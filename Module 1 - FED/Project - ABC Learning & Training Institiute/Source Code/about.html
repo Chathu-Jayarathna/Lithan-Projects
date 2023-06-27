@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABC Learning Center</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="https://kit.fontawesome.com/848830b72b.js"crossorigin="anonymous"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function () {
+  $("#dropdown").on("click", () => {
+    $("#dropdown-menu").toggleClass("show");
+  });
+});
+
+$(document).on("click", function (event) {
+  const trigger = $("#dropdown");
+  if (trigger !== event.target && !trigger.has(event.target).length) {
+    $("#dropdown-menu").removeClass("show");
+  }
+});
+</script>
+
+<script>
+  $(document).ready(function () {
+    $("#dropdowns").on("click", () => {
+      $("#dropdown-menus").toggleClass("show");
+    });
+  });
+  
+  $(document).on("click", function (event) {
+    const trigger = $("#dropdowns");
+    if (trigger !== event.target && !trigger.has(event.target).length) {
+      $("#dropdown-menus").removeClass("show");
+    }
+  });
+  </script>
+</head>
+  <body>
+<!-- nav bar -->
+<nav>
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <div class="nav-logo">
+          <img src="Images/logo.jpg" alt="ABC" />
+          <p>ABC<span>LEARNING<spans>CENTER</spans></span></p>
+        </div>
+      </a>
+      <ul class="nav-links">
+            <li class="nav-link"><a href="index.html"  style="color: #fff;">HOME</a></li>
+            <li class="nav-link"><a href="about.html"  style="color: #fff;">ABOUT</a></li>
+            <li class="nav-link"><a href="contact.html"  style="color: #fff;">CONTACT</a></li>
+            
+            
+            <li class="nav-link dropdown" id="dropdown">
+          <a id="dropdown-link" style="color: #fff;">Course <i class="fa-solid fa-caret-down"></i></a>
+            <ul class="dropdown-menu" id="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="courses.html">
+                  All Courses
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="java.html">
+                  Programming in Java
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="net.html">
+                Programming in .Net
+                </a>
+              </li>
+              
+            </ul>
+          </li>
+          <li class="nav-link dropdowns" id="dropdowns">
+            <a id="dropdown-links" style="color: #fff;">Course Schedule <i class="fa-solid fa-caret-down"></i></a>
+              <ul class="dropdown-menus" id="dropdown-menus">
+                <li>
+                  <a class="dropdown-items" href="javaschedule.html">
+                    Programming in Java
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-items" href="netschedule.html">
+  
+                    Programming in .Net
+                  </a>
+                </li>
+                
+              </ul>
+            </li>
+         
+          <li class="nav-link"><a href="sitemap.html"  style="color: #fff;">SITEMAP</a></li>
+          <li class="nav-link"><a href="privacy.html"  style="color: #fff;">PRIVACY POLICY</a></li>
+        </ul>
+<!-- login -->
+<div class="nav-button">
+  <button class="btn-login">Login</button>
+</div>
+<!-- Sign up -->
+<div class="nav-buttons">
+<a href="registration.html" class="btn-signup">Sign Up</a>
+</div>
+          
+ </nav>
+
+ <!-- about -->
+<section id="about">
+    <div class="about-1">
+        <h1>ABOUT US</h1>
+        <p>ABC learning Centre was established in 2001 with the sole and whole objective of reaching and maintaining the highest levels in the education sector. We have made giant strides and reached milestones surpassing even our expectations since then. ABC is recognized as the leading educational institution producing towering performance results in Sri Lanka.We cater to professionals on a ‘superlative professional level,’ we are proud to say that we are most sought after solution for professional education. Further we have a chain of international schools providing the Sri Lankan Students a comprehensive IT education in a well-disciplined environment.As the pioneer in the field of education, ABC is providing the best service to Sri Lankan Students.
+            </p>
+        </div>
+</section>
+
+<!--welcome  -->
+<div class="container">
+    <div class="we">
+        
+    <div>
+</div>
+<div id="conta">
+    <div class="col1">
+        <h2 class="heading">Our Mission</h2>
+        <p class="pharagraph">
+            Our mission is to search for and disseminate knowledge, promote learning, research and training to produce men and women proficient in their respective disciplines possessing practical skills and positive attitudes enabling them to contribute towards the manpower requirements of the nation. The institute will be a centre of excellence for research and development for Sri Lanka in general and the Sabaragamuwa Province in Sri Lanka</p>
+    </div>
+    <div class="col2">
+        <h2 class="heading">Our Vision</h2>
+        <p class="pharagraph">
+            To be an internationally acclaimed centre of excellence in higher learning producing dynamic leaders and nation builders to guide the destiny of Sri Lanka</p>
+    </div>
+</div>
+
+<div class="wrapper">
+    <img class="about-us" src="Images/about.jpg" alt="aboutus">
+</div>
+</div>
+</section>
+
+<!-- hightlight-1 -->
+
+<section class="course">
+    
+    <div class="row">
+        <div class="course-col">
+            <h1>History</h1>
+            <p-1>ABC was established in 2001.  Currently, we offer both certificate. diploma and higher diploma courses and accommodate over 2000 students, including international students from various regions in the world. More than 1500 alumni have graduated from our faculties. We take great pride in producing graduates who make meaningful contributions to their communities and professions</p-1>
+            
+        </div>
+        <div class="course-col">
+            <h3>OUR GOLAS</h3>
+            <li>First and foremost, we teach students how to operate computer</li>
+            <li>Connect students with offices that will allow them to shadow in order to gain experience.</li>
+            <li>There are many variations of passages of Lorem Ipsum available,</li>
+            
+            
+        </div>
+        <div class="course-col">
+            <h3>Our Objectives<h3>
+            <p>Education & training of professional at a high level of excellence in the field of IT innoviators ans star-up companies with the necessary expertise to achieve business objectives provision of consultancy services and software services to public and private sector enterprises of Sri Lanka at a resonable cost conduct and promotion of research & development leading to specialized applications, services, and innovative technology products. Expanding horizons in the fields of IT to reach international level</p>
+            
+        </div>
+    </div>
+</section>
+
+<!-- Highlight-2 -->
+<section class="course-1">
+    <h1>Meet Our Leaders</h1>
+    <div class="row">
+        
+       
+            
+            
+        </div>
+    </div>
+
+    <div class="wrap">
+        <img class="user-1" src="Images/user1.jpg" alt="user1">
+    </div>
+    <div class="wrap">
+        <img class="user-2" src="Images/user1.jpg" alt="user2">
+    </div>
+    <div class="wrap">
+        <img class="user-3" src="Images/user1.jpg" alt="user3">
+    </div>
+
+</section>
+
+<section class="course-2">
+    
+    <div class="row">
+        
+        <div class="course-col-2">
+             
+        </div>
+        <div class="course-col-2">
+           
+        </div>
+        <div class="course-col-2">
+            
+        </div>
+    </div>
+
+</section>
+
+</body>
+<!---------------------------------------------------------------footer--------------------------------------------------------------------------->
+<footer>
+    <a href="#" class="list-item"><i class="fa fa-envelope-o fa-x"></i></i>&nbsp; abclearning@gmail.com</a>
+    <a href="#" class="list-item"><i class="fa fa-whatsapp fa-x"></i>&nbsp; +945678934,+947689345</a>
+    <a href="#" class="list-item"><i class="fa fa-map-marker fa-x"></i>&nbsp; abclearning, 4575474, gfhdthdfh, fgd4</a>
+<div class="row">
+<div class="col">
+    <div class="centerdiv">
+        <a href="#" class="list-item-1"><i class="fa fa-cc-visa fa-2x"></i></a>
+        <a href="#" class="list-item-1"><i class="fa fa-cc-discover fa-2x"></i></a>
+        <a href="#" class="list-item-1"><i class="fa fa-credit-card fa-2x"></i></a>
+        <a href="#" class="list-item-1"><i class="fa fa-cc-mastercard fa-2x"></i></a>
+        </div>
+
+        <div class="centerdiv-2">
+            <a href="#" class="list-item-2"><i class="fa fa-envelope-o fa-2x"></i></a>
+            <a href="#" class="list-item-2"><i class="fa fa-linkedin-square fa-2x"></i></a>
+            <a href="#" class="list-item-2"><i class="fa fa-twitter fa-2x"></i></a>
+            <a href="#" class="list-item-2"><i class="fa fa-facebook-official fa-2x"></i></a>
+            <a href="#" class="list-item-2"><i class="fa fa-instagram fa-2x"></i></a>
+            </div>
+</div>
+</div>
+
+<hr>
+<p class="copyright" style="color: #fff;">ABC Learning Center Pvt Ltd © All Rights Reserved</p>
+</html>

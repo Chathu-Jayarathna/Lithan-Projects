@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Open Sans",sans-serif;
+}
+body{
+    background-color: #fff3f3;;
+    
+}
+header{
+    height: 90px;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+}
+.inner-width{
+    max-width: 1000px;
+    padding: 0 10px;
+    margin: auto;
+}
+.logo{
+    float: left;
+    padding: 20px 0;
+}
+.logo img{
+    height: 70px;
+    position: relative;
+    top: -10px;
+}
+h2{
+    color: #fff;
+    position: relative;
+    top: -60px;
+    left: 70px;
+}
+.navigation-menu{
+    float: right;
+    display: flex;
+    align-items: center;
+    min-height: 90px;
+}
+.navigation-menu a{
+    margin-left: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 12px 20px;
+    border-radius: 4px;
+    transition: .3s linear;
+}
+.navigation-menu a:hover{
+    background: #fff;
+    color: #2f3640;
+    transform: scale(1.1);
+}
+.navigation-menu i{
+    margin-right: 8px;
+    font-size: 16px;
+}
+
+
+
+.menu-toggle-btn{
+    float: right;
+    height: 90px;
+    line-height: 90px !important;
+    color: #fff;
+    font-size: 26px;
+    display: none !important;
+    cursor: pointer;
+}
+
+@media screen and (max-width:700px) {
+    .menu-toggle-btn{
+        display: block !important;
+    }
+.navigation-menu{
+    position: flex;
+    width: 100%;
+    max-width: 400px;
+    background: #172b4d;
+    top: 90px;
+    right: 0;
+    display: block;
+    padding: 20px 40px;
+    box-sizing: border-box;
+} 
+.navigation-menu::before{
+    content: "";
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #172b4d;
+    position: absolute;
+    top: -10px;
+    right: 10px;
+}
+.navigation-menu a{
+    display: block;
+    margin: 10px 0px;
+}
+.navigation-menu.active{
+    display: block;
+}
+}  
+
+/*---------------------------------------------courses------------------------------------------------------*/
+.text-box{
+    height: 12%;
+    width: 90%;
+    color: #00093c;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+}
+
+.text-box h1{
+    font-size: 80px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 19px;
+    color: #00093c;  
+    text-align: justify;
+}
+.welcome-text{
+    width: 570px;
+    text-align: left;
+}   
+.welcome-text h2{
+    color: #00093c;
+} 
+.wrapper{
+    margin: 0 auto;
+    width: 1000px;
+}
+.img-three{
+    width: 700px;
+    height: 350px;
+    position: absolute;
+    top: 210px;
+    right: 100px;
+    border-radius: 10px;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #00093c;
+    border: 1px solid #000;
+    border-radius: 30px;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: absolute;
+    cursor: pointer;
+    top: 520px;
+    right: 1150px;
+}
+.hero-btn:hover{
+    border: 1px solid lightpink;
+    background: lightpink;
+    transition: 1s;
+}
+/* ---------------PROGRAMMING IN .NET--------------- */
+.texts-box{
+    height: 12%;
+    width: 90%;
+    color: #00093c;
+    position: absolute;
+    top: 105%;
+    left: 100%;
+    transform: translate(-50%,-50%);
+    text-align: right;
+}
+
+.texts-box h1{
+    font-size: 80px;
+}
+.texts-box p{
+    margin: 10px 0 40px;
+    font-size: 19px;
+    color: #00093c;
+    text-align: justify;
+}
+.welcome-texts{
+    width: 570px;
+    text-align: left;
+}   
+.welcome-texts h2{
+    color: #00093c;
+} 
+.wrappers{
+    margin: 0 auto;
+    width: 1000px;
+}
+.img-threes{
+    width: 700px;
+    height: 350px;
+    position: absolute;
+    top: 650px;
+    right: 800px;
+    border-radius: 10px;
+}
+.hero-btn1{
+    display: inline-block;
+    text-decoration: none;
+    color: #00093c;
+    border: 1px solid #000;
+    border-radius: 30px;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: absolute;
+    cursor: pointer;
+    top: 900px;
+    right: 450px;
+}
+.hero-btn1:hover{
+    border: 1px solid lightpink;
+    background: lightpink;
+    transition: 1s;
+}
+/* --------------HTML------------ */
+.texta-box{
+    height: 12%;
+    width: 90%;
+    color: #00093c;
+    position: absolute;
+    top: 170%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+}
+
+.texta-box h1{
+    font-size: 80px;
+}
+.texta-box p{
+    margin: 10px 0 40px;
+    font-size: 19px;
+    color: #00093c;
+    text-align: justify;
+}
+.welcome-texta{
+    width: 570px;
+    text-align: left;
+}   
+.welcome-texta h2{
+    color: #00093c;
+} 
+.wrappera{
+    margin: 0 auto;
+    width: 1000px;
+}
+.img-threea{
+    width: 700px;
+    height: 350px;
+    position: absolute;
+    top: 1100px;
+    right: 100px;
+    border-radius: 10px;
+}
+.hero-btn2{
+    display: inline-block;
+    text-decoration: none;
+    color: #00093c;
+    border: 1px solid #000;
+    border-radius: 30px;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: absolute;
+    cursor: pointer;
+    top: 1360px;
+    right: 1170px;
+}
+.hero-btn2:hover{
+    border: 1px solid lightpink;
+    background: lightpink;
+    transition: 1s;
+}

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABC Learning Center</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/privacy.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="https://kit.fontawesome.com/848830b72b.js"crossorigin="anonymous"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function () {
+  $("#dropdown").on("click", () => {
+    $("#dropdown-menu").toggleClass("show");
+  });
+});
+
+$(document).on("click", function (event) {
+  const trigger = $("#dropdown");
+  if (trigger !== event.target && !trigger.has(event.target).length) {
+    $("#dropdown-menu").removeClass("show");
+  }
+});
+</script>
+
+<script>
+  $(document).ready(function () {
+    $("#dropdowns").on("click", () => {
+      $("#dropdown-menus").toggleClass("show");
+    });
+  });
+  
+  $(document).on("click", function (event) {
+    const trigger = $("#dropdowns");
+    if (trigger !== event.target && !trigger.has(event.target).length) {
+      $("#dropdown-menus").removeClass("show");
+    }
+  });
+  </script>
+</head>
+  <body>
+<!-- nav bar -->
+<nav>
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <div class="nav-logo">
+          <img src="Images/logo.jpg" alt="ABC" />
+          <p>ABC<span>LEARNING<spans>CENTER</spans></span></p>
+        </div>
+      </a>
+      <ul class="nav-links">
+            <li class="nav-link"><a href="index.html"  style="color: #fff;">HOME</a></li>
+            <li class="nav-link"><a href="about.html"  style="color: #fff;">ABOUT</a></li>
+            <li class="nav-link"><a href="contact.html"  style="color: #fff;">CONTACT</a></li>
+            
+            
+            <li class="nav-link dropdown" id="dropdown">
+          <a id="dropdown-link" style="color: #fff;">Course <i class="fa-solid fa-caret-down"></i></a>
+            <ul class="dropdown-menu" id="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="courses.html">
+                  All Courses
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="java.html">
+                  Programming in Java
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="net.html">
+                Programming in .Net
+                </a>
+              </li>
+              
+            </ul>
+          </li>
+          <li class="nav-link dropdowns" id="dropdowns">
+            <a id="dropdown-links" style="color: #fff;">Course Schedule <i class="fa-solid fa-caret-down"></i></a>
+              <ul class="dropdown-menus" id="dropdown-menus">
+                <li>
+                  <a class="dropdown-items" href="javaschedule.html">
+                    Programming in Java
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-items" href="netschedule.html">
+  
+                    Programming in .Net
+                  </a>
+                </li>
+                
+              </ul>
+            </li>
+         
+          <li class="nav-link"><a href="sitemap.html"  style="color: #fff;">SITEMAP</a></li>
+          <li class="nav-link"><a href="privacy.html"  style="color: #fff;">PRIVACY POLICY</a></li>
+        </ul>
+<!-- login -->
+<div class="nav-button">
+  <button class="btn-login">Login</button>
+</div>
+<!-- Sign up -->
+<div class="nav-buttons">
+<a href="registration.html" class="btn-signup">Sign Up</a>
+</div>
+          
+ </nav>
+
+
+
+    
+
+<div class="wrapper">
+    <img class="img-three" src="Images/policy.jpg" alt="imgthree">
+</div>
+</div>
+<div class="text-box">
+    <div class="welcome-text">
+        <h2>ABC LEARNING CENTER<br>PRIVACY POLICY</h2><div class="text-box">
+    </div>
+ </div>
+ </div>
+
+<!---------------------------------------------------------------privacy policy---------------------------------------------------------------------->
+
+ <div class="policy">
+     <div class="privacy">
+ <h3>Data Policy</h3>
+ <p>ABC must protect restricted, confidential or sensitive data from loss to avoid reputation damage and to avoid adversely 
+    impacting our customers. The protection of data in scope is a critical business requirement, yet flexibility to access data and work 
+    effectively is also critical.<h3>Open Educational Resource Policy</h3>
+ <p> The ABC shall be committed to promoting the concept of OER and shall foster all 
+    efforts towards the adoption of OER in course design, development and delivery of 
+    ABC courses and other professional engagements and The OUSL shall develop capacity among its staff for effective adoption of OER thereby
+    helping them to acquire necessary competencies and positive attitudes to sustain 
+    effectively in a knowledge society
+    <h3>Green Policy</h3S>
+ <p>The overarching goal of the Green Policy of the ABC learning center is to become one of the most 
+    environmentally sustainable universities in the island. This requires the transformation of the 
+    existing natural and built environment of the learning center to become environmentally friendly 
+    and gearing the teaching, research and advocacy functions conducted by the university to make 
+    Sri Lanka a sustainable country while promoting environmentally friendly lifestyles among the 
+    center staff  and students.</p>
+ </div>
+</div>
+</section>
+
+
+<!---------------------------------------------------------------footer--------------------------------------------------------------------------->
+     
+<footer>
+    <a href="#" class="list-item"><i class="fa fa-envelope-o fa-x"></i></i>&nbsp; abclearning@gmail.com</a>
+    <a href="#" class="list-item"><i class="fa fa-whatsapp fa-x"></i>&nbsp; +945678934,+947689345</a>
+    <a href="#" class="list-item"><i class="fa fa-map-marker fa-x"></i>&nbsp; abclearning, 4575474, gfhdthdfh, fgd4</a>
+<div class="row">
+<div class="col">
+    <div class="centerdiv">
+        <a href="#" class="list-item-1"><i class="fa fa-cc-visa fa-2x"></i></a>
+        <a href="#" class="list-item-1"><i class="fa fa-cc-discover fa-2x"></i></a>
+        <a href="#" class="list-item-1"><i class="fa fa-credit-card fa-2x"></i></a>
+        <a href="#" class="list-item-1"><i class="fa fa-cc-mastercard fa-2x"></i></a>
+        </div>
+
+        <div class="centerdiv-2">
+            <a href="#" class="list-item-2"><i class="fa fa-envelope-o fa-2x"></i></a>
+            <a href="#" class="list-item-2"><i class="fa fa-linkedin-square fa-2x"></i></a>
+            <a href="#" class="list-item-2"><i class="fa fa-twitter fa-2x"></i></a>
+            <a href="#" class="list-item-2"><i class="fa fa-facebook-official fa-2x"></i></a>
+            <a href="#" class="list-item-2"><i class="fa fa-instagram fa-2x"></i></a>
+            </div>
+</div>
+</div>
+
+<hr>
+<p class="copyright" style="color: #fff;">ABC Learning Center Pvt Ltd ©  All Rights Reserved</p>
+</html>

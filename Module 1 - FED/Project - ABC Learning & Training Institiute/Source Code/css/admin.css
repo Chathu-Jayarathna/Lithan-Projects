@@ -1,0 +1,18 @@
+.student-list{
+    max-width: 1000px;
+    margin: 10px auto;
+    margin-top: 150px
+}
+.update-student{
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* validations */
+.update-student .val-error{
+  color: red;
+  display: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 3px;
+}

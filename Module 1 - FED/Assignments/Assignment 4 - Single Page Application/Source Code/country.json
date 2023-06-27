@@ -1,0 +1,29 @@
+{
+    "countries": [
+      {
+        "code": "SG",
+        "name": "Singapore",
+        "temp":"25"
+      },
+      {
+        "code": "RS",
+        "name": "sri Lanka",
+        "temp":"23"
+      },
+      {
+        "code": "MY",
+        "name": "Malayasia",
+        "temp":"10"
+      },
+      {
+        "code": "IN",
+        "name": "India",
+        "temp":"2"
+      },
+      {
+        "code": "PHP",
+        "name": "Philippine Peso",
+        "temp":"3"
+      }
+    ]
+  }

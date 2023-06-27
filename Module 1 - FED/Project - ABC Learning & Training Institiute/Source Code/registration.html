@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABC Learning Center</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/registration.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="https://kit.fontawesome.com/848830b72b.js"crossorigin="anonymous"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function () {
+  $("#dropdown").on("click", () => {
+    $("#dropdown-menu").toggleClass("show");
+  });
+});
+
+$(document).on("click", function (event) {
+  const trigger = $("#dropdown");
+  if (trigger !== event.target && !trigger.has(event.target).length) {
+    $("#dropdown-menu").removeClass("show");
+  }
+});
+</script>
+
+<script>
+  $(document).ready(function () {
+    $("#dropdowns").on("click", () => {
+      $("#dropdown-menus").toggleClass("show");
+    });
+  });
+  
+  $(document).on("click", function (event) {
+    const trigger = $("#dropdowns");
+    if (trigger !== event.target && !trigger.has(event.target).length) {
+      $("#dropdown-menus").removeClass("show");
+    }
+  });
+  </script>
+</head>
+  <body>
+<!-- nav bar -->
+<nav>
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <div class="nav-logo">
+          <img src="Images/logo.jpg" alt="ABC" />
+          <p>ABC<span>LEARNING<spans>CENTER</spans></span></p>
+        </div>
+      </a>
+      <ul class="nav-links">
+            <li class="nav-link"><a href="index.html"  style="color: #fff;">HOME</a></li>
+            <li class="nav-link"><a href="about.html"  style="color: #fff;">ABOUT</a></li>
+            <li class="nav-link"><a href="contact.html"  style="color: #fff;">CONTACT</a></li>
+            
+            
+            <li class="nav-link dropdown" id="dropdown">
+          <a id="dropdown-link" style="color: #fff;">Course <i class="fa-solid fa-caret-down"></i></a>
+            <ul class="dropdown-menu" id="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="courses.html">
+                  All Courses
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="java.html">
+                  Programming in Java
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="net.html">
+                Programming in .Net
+                </a>
+              </li>
+              
+            </ul>
+          </li>
+          <li class="nav-link dropdowns" id="dropdowns">
+            <a id="dropdown-links" style="color: #fff;">Course Schedule <i class="fa-solid fa-caret-down"></i></a>
+              <ul class="dropdown-menus" id="dropdown-menus">
+                <li>
+                  <a class="dropdown-items" href="javaschedule.html">
+                    Programming in Java
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-items" href="netschedule.html">
+  
+                    Programming in .Net
+                  </a>
+                </li>
+                
+              </ul>
+            </li>
+         
+          <li class="nav-link"><a href="sitemap.html"  style="color: #fff;">SITEMAP</a></li>
+          <li class="nav-link"><a href="privacy.html"  style="color: #fff;">PRIVACY POLICY</a></li>
+        </ul>
+<!-- login -->
+<div class="nav-button">
+  <button class="btn-login">Login</button>
+</div>
+<!-- Sign up -->
+<div class="nav-buttons">
+<a href="registration.html" class="btn-signup">Sign Up</a>
+</div>
+ </nav>
+
+ <section id="registration">
+  <div class="container-registration">
+    <h1 class="regis-header">Online Registration Form</h1>
+<!-- course -->
+      <form action="thanku.html" id="regis-form">
+        <label for="select">Select Course</label>
+        <select name="select" id="course-regis">
+          <option value="select-valid">Select your course</option>
+          <option value="Java">Programming in Java</option>
+          <option value="Net">Programming in .Net</option>
+          <option value="HTML">HTML</option>
+        </select>
+
+        <p class="val-error" id="course-error"></p>
+
+<!-- branch -->
+      <label for="select">Select Branch</label>
+      <select name="select" id="branch-regis">
+        <option value="select-valid">Select your branch</option>
+        <option value="Colombo">Colombo</option>
+        <option value="Matara">Matara</option>
+      </select>
+
+      <p class="val-error" id="branch-error"></p>
+
+      <p class="select-validator"></p>
+<!-- First Name -->
+      <label for="first-name">First Name</label>
+      <input type="text" name="first-name" id="first-name-regis" placeholder="Enter your First Name" />
+      <p class="val-error" id="first-name-error">First Name is Required</p>
+<!-- Last Name -->
+      <label for="last">Last Name</label>
+      <input type="text" name="last" id="last-name-regis" placeholder="Enter your Last Name" />
+      <p class="val-error" id="last-name-error">Last Name is Required</p>
+<!-- Email -->
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email-regis" placeholder="Enter your Email" />
+      <p class="val-error" id="email-error">Email is Required</p>
+<!-- NIC -->
+      <label for="nic">NIC</label>
+      <input type="nic" name="nic" id="nic-regis" placeholder="Enter your NIC" />
+      <p class="val-error" id="nic-error">NIC is Required</p>
+<!-- Phone Number -->
+      <label for="phone">Phone Number</label>
+      <input type="phone" name="phone" id="phone-regis" placeholder="Enter your phone Number"/>
+      <p class="val-error" id="phone-error">Phone is Required</p>
+<!-- Address -->
+      <label for="address">Address</label>
+      <input type="text" name="address" id="address-regis" placeholder="Enter your Address" />
+      <p class="val-error" id="address-error">Address is Required</p>
+
+<!-- Submit -->
+        <button type="button" onclick="checkValidation()" class="btn-submit" id="signup">Sign Up</button>
+      </form>
+       
+      <label class="main lp-form-label" for="esoft_rules__regulations" id="label_esoft_rules__regulations" style="height: auto;"><span class="label-style">ABC Rules &amp; Regulations&nbsp;*</span></label>
+
+      <div class="ub-input-item input-wrap optionsList" id="group_esoft_rules__regulations"><div class="option" id="ub-option-esoft_rules__regulations-item-0"><input type="checkbox" id="esoft_rules__regulations_i_have_read_and_understood_the_rules_and_regulations_of_the_organisation_and_agree_to_abide_by_them_also_please_note_that_you_need_to_fulfill_the_entry_requirements_for_the_specific_course_applications_will_be_assessed_individually_and_admission_will_be_granted_upon_fulfilling_the_prerequisites_required_educational_qualifications_of_the_respective_study_programme" name="esoft_rules__regulations" value="I have read and understood the rules and regulations of the organisation and agree to  abide  by  them.  Also please note that you need to fulfill the entry requirements for the specific course. Applications will be assessed individually and admission will be granted upon fulfilling the prerequisites / required educational qualifications of the respective study programme. " class="checkbox form-builder-checkbox-input form_elem_esoft_rules__regulations" data-required=""><label for="esoft_rules__regulations_i_have_read_and_understood_the_rules_and_regulations_of_the_organisation_and_agree_to_abide_by_them_also_please_note_that_you_need_to_fulfill_the_entry_requirements_for_the_specific_course_applications_will_be_assessed_individually_and_admission_will_be_granted_upon_fulfilling_the_prerequisites_required_educational_qualifications_of_the_respective_study_programme" class="opt-label form-builder-checkbox-label"><span class="label-style">I have read and understood the rules and regulations of the organisation and agree to  abide  by  them.  Also please note that you need to fulfill the entry requirements for the specific course. Applications will be assessed individually and admission will be granted upon fulfilling the prerequisites / required educational qualifications of the respective study programme. </span></label></div></div>
+      </section>
+<!--js  -->
+  <script src="js/ajax.js"></script>
+  <script src="js/validation.js"></script>
+  
+<!-- footer -->
+<footer>
+  <a href="#" class="list-item"><i class="fa fa-envelope-o fa-x"></i></i>&nbsp; abclearning@gmail.com</a>
+  <a href="#" class="list-item"><i class="fa fa-whatsapp fa-x"></i>&nbsp; +945678934,+947689345</a>
+  <a href="#" class="list-item"><i class="fa fa-map-marker fa-x"></i>&nbsp; abclearning, 4575474, gfhdthdfh, fgd4</a>
+<div class="row">
+<div class="col">
+  <div class="centerdiv">
+      <a href="#" class="list-item-1"><i class="fa fa-cc-visa fa-2x"></i></a>
+      <a href="#" class="list-item-1"><i class="fa fa-cc-discover fa-2x"></i></a>
+      <a href="#" class="list-item-1"><i class="fa fa-credit-card fa-2x"></i></a>
+      <a href="#" class="list-item-1"><i class="fa fa-cc-mastercard fa-2x"></i></a>
+      </div>
+
+      <div class="centerdiv-2">
+          <a href="#" class="list-item-2"><i class="fa fa-envelope-o fa-2x"></i></a>
+          <a href="#" class="list-item-2"><i class="fa fa-linkedin-square fa-2x"></i></a>
+          <a href="#" class="list-item-2"><i class="fa fa-twitter fa-2x"></i></a>
+          <a href="#" class="list-item-2"><i class="fa fa-facebook-official fa-2x"></i></a>
+          <a href="#" class="list-item-2"><i class="fa fa-instagram fa-2x"></i></a>
+          </div>
+</div>
+</div>
+
+<hr>
+<p class="copyright" style="color: #fff;">ABC Learning Center Pvt Ltd ©  All Rights Reserved</p>
+</html>
+
+  

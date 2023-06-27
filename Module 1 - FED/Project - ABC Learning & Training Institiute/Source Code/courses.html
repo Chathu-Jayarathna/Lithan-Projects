@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABC Learning Center</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/courses.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="https://kit.fontawesome.com/848830b72b.js"crossorigin="anonymous"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function () {
+  $("#dropdown").on("click", () => {
+    $("#dropdown-menu").toggleClass("show");
+  });
+});
+
+$(document).on("click", function (event) {
+  const trigger = $("#dropdown");
+  if (trigger !== event.target && !trigger.has(event.target).length) {
+    $("#dropdown-menu").removeClass("show");
+  }
+});
+</script>
+
+<script>
+  $(document).ready(function () {
+    $("#dropdowns").on("click", () => {
+      $("#dropdown-menus").toggleClass("show");
+    });
+  });
+  
+  $(document).on("click", function (event) {
+    const trigger = $("#dropdowns");
+    if (trigger !== event.target && !trigger.has(event.target).length) {
+      $("#dropdown-menus").removeClass("show");
+    }
+  });
+  </script>
+</head>
+  <body>
+<!-- nav bar -->
+<nav>
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <div class="nav-logo">
+          <img src="Images/logo.jpg" alt="ABC" />
+          <p>ABC<span>LEARNING<spans>CENTER</spans></span></p>
+        </div>
+      </a>
+      <ul class="nav-links">
+            <li class="nav-link"><a href="index.html"  style="color: #fff;">HOME</a></li>
+            <li class="nav-link"><a href="about.html"  style="color: #fff;">ABOUT</a></li>
+            <li class="nav-link"><a href="contact.html"  style="color: #fff;">CONTACT</a></li>
+            
+            
+            <li class="nav-link dropdown" id="dropdown">
+          <a id="dropdown-link" style="color: #fff;">Course <i class="fa-solid fa-caret-down"></i></a>
+            <ul class="dropdown-menu" id="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="courses.html">
+                  All Courses
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="java.html">
+                  Programming in Java
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="net.html">
+                Programming in .Net
+                </a>
+              </li>
+              
+            </ul>
+          </li>
+          <li class="nav-link dropdowns" id="dropdowns">
+            <a id="dropdown-links" style="color: #fff;">Course Schedule <i class="fa-solid fa-caret-down"></i></a>
+              <ul class="dropdown-menus" id="dropdown-menus">
+                <li>
+                  <a class="dropdown-items" href="javaschedule.html">
+                    Programming in Java
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-items" href="netschedule.html">
+  
+                    Programming in .Net
+                  </a>
+                </li>
+                
+              </ul>
+            </li>
+         
+          <li class="nav-link"><a href="sitemap.html"  style="color: #fff;">SITEMAP</a></li>
+          <li class="nav-link"><a href="privacy.html"  style="color: #fff;">PRIVACY POLICY</a></li>
+        </ul>
+<!-- login -->
+<div class="nav-button">
+  <button class="btn-login">Login</button>
+</div>
+<!-- Sign up -->
+<div class="nav-buttons">
+<a href="registration.html" class="btn-signup">Sign Up</a>
+</div>
+          
+ </nav>
+
+
+<!----------------------------------------------------------------courses---------------------------------------------------------------->
+
+
+<div class="text-box">
+ <div class="welcome-text" style="color: #000;">
+     <h2>Programming in Java</h2>
+     <P>Java is a computer programming language. It enables programmers to write computer instructions using English-based commands instead of having to write in numeric codes. It’s known as a high-level language because it can be read and written easily by humans. Like English, Java has a set of rules that determine how the instructions are written
+     </P>
+</div>
+</div>
+     <div class="wrapper">
+         <img class="img-three" src="Images/javaa.jpg" alt="imgthree">
+     </div>
+    </i><a href="java.html" class="hero-btn">More</a>
+
+
+<div class="texts-box">
+    <div class="welcome-texts" style="color: #000;">
+        <h2>Programming in .Net</h2>
+        <P>Programming in the .NET environment provides insights and examples for using the latest enhancements provided by the .NET framework. The text is mostly language agnostic, though some of the code examples are in C#, but the concepts apply to all .NET enabled languages
+       </P>
+   </div>
+</div>   
+        <div class="wrappers">
+            <img class="img-threes" src="Images/nett.jpg" alt="imgthrees">
+        </div>
+    </i><a href="net.html" class="hero-btn1">More</a>
+
+<div class="texta-box">
+    <div class="welcome-texta" style="color: #000;">
+        <h2>HTML</h2>
+        <P>The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript
+        </P>
+    </div>
+</div>
+        <div class="wrappera">
+            <img class="img-threea" src="Images/htmll.jpg" alt="imgthreea">
+        </div>
+    </i><a href="" class="hero-btn2">More</a>
+    <!-- footer -->
+<footer>
+    <a href="#" class="list-item"><i class="fa fa-envelope-o fa-x"></i></i>&nbsp; abclearning@gmail.com</a>
+    <a href="#" class="list-item"><i class="fa fa-whatsapp fa-x"></i>&nbsp; +945678934,+947689345</a>
+    <a href="#" class="list-item"><i class="fa fa-map-marker fa-x"></i>&nbsp; abclearning, 4575474, gfhdthdfh, fgd4</a>
+<div class="row">
+<div class="col">
+    <div class="centerdiv">
+        <a href="#" class="list-item-1"><i class="fa fa-cc-visa fa-2x"></i></a>
+        <a href="#" class="list-item-1"><i class="fa fa-cc-discover fa-2x"></i></a>
+        <a href="#" class="list-item-1"><i class="fa fa-credit-card fa-2x"></i></a>
+        <a href="#" class="list-item-1"><i class="fa fa-cc-mastercard fa-2x"></i></a>
+        </div>
+
+        <div class="centerdiv-2">
+            <a href="#" class="list-item-2"><i class="fa fa-envelope-o fa-2x"></i></a>
+            <a href="#" class="list-item-2"><i class="fa fa-linkedin-square fa-2x"></i></a>
+            <a href="#" class="list-item-2"><i class="fa fa-twitter fa-2x"></i></a>
+            <a href="#" class="list-item-2"><i class="fa fa-facebook-official fa-2x"></i></a>
+            <a href="#" class="list-item-2"><i class="fa fa-instagram fa-2x"></i></a>
+            </div>
+</div>
+</div>
+
+<hr>
+<p class="copyright" style="color: #fff;">ABC Learning Center Pvt Ltd ©  All Rights Reserved</p>
+</html>
+
+   

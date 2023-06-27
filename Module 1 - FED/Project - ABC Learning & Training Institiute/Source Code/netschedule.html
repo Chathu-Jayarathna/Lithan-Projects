@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABC Learning Center</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/netschedule.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="https://kit.fontawesome.com/848830b72b.js"crossorigin="anonymous"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function () {
+  $("#dropdown").on("click", () => {
+    $("#dropdown-menu").toggleClass("show");
+  });
+});
+
+$(document).on("click", function (event) {
+  const trigger = $("#dropdown");
+  if (trigger !== event.target && !trigger.has(event.target).length) {
+    $("#dropdown-menu").removeClass("show");
+  }
+});
+</script>
+
+<script>
+  $(document).ready(function () {
+    $("#dropdowns").on("click", () => {
+      $("#dropdown-menus").toggleClass("show");
+    });
+  });
+  
+  $(document).on("click", function (event) {
+    const trigger = $("#dropdowns");
+    if (trigger !== event.target && !trigger.has(event.target).length) {
+      $("#dropdown-menus").removeClass("show");
+    }
+  });
+  </script>
+</head>
+  <body>
+<!-- nav bar -->
+<nav>
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <div class="nav-logo">
+          <img src="Images/logo.jpg" alt="ABC" />
+          <p>ABC<span>LEARNING<spans>CENTER</spans></span></p>
+        </div>
+      </a>
+      <ul class="nav-links">
+            <li class="nav-link"><a href="index.html"  style="color: #fff;">HOME</a></li>
+            <li class="nav-link"><a href="about.html"  style="color: #fff;">ABOUT</a></li>
+            <li class="nav-link"><a href="contact.html"  style="color: #fff;">CONTACT</a></li>
+            
+            
+            <li class="nav-link dropdown" id="dropdown">
+          <a id="dropdown-link" style="color: #fff;">Course <i class="fa-solid fa-caret-down"></i></a>
+            <ul class="dropdown-menu" id="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="courses.html">
+                  All Courses
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="java.html">
+                  Programming in Java
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="net.html">
+                Programming in .Net
+                </a>
+              </li>
+              
+            </ul>
+          </li>
+          <li class="nav-link dropdowns" id="dropdowns">
+            <a id="dropdown-links" style="color: #fff;">Course Schedule <i class="fa-solid fa-caret-down"></i></a>
+              <ul class="dropdown-menus" id="dropdown-menus">
+                <li>
+                  <a class="dropdown-items" href="javaschedule.html">
+                    Programming in Java
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-items" href="netschedule.html">
+  
+                    Programming in .Net
+                  </a>
+                </li>
+                
+              </ul>
+            </li>
+         
+          <li class="nav-link"><a href="sitemap.html"  style="color: #fff;">SITEMAP</a></li>
+          <li class="nav-link"><a href="privacy.html"  style="color: #fff;">PRIVACY POLICY</a></li>
+        </ul>
+<!-- login -->
+<div class="nav-button">
+  <button class="btn-login">Login</button>
+</div>
+<!-- Sign up -->
+<div class="nav-buttons">
+<a href="registration.html" class="btn-signup">Sign Up</a>
+</div>
+          
+ </nav>
+
+
+<!----------------------------------------------------------------programming in Java---------------------------------------------------------------->
+<h1>Programming in .Net Course Schedule____ </h1>
+
+<div class="topic">
+    <h2>Class Schedule</h2>
+</div>
+<table class="table">
+    <thead>
+        <th>.....</th>
+        <th>Course 1</th>
+        <th> Course 2</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td data-label=".....">Monday</td>
+            <td data-label="course 1">8.00am-12.00pm</td>
+            <td data-label="course 2">12.00pm-4.00pm</td>
+            
+        </tr>
+        <tr>
+            <td data-label=".....">Tuesday</td>
+            <td data-label="course 1">8.00am-12.00pm</td>
+            <td data-label="course 2">12.00pm-4.00pm</td>
+            
+        </tr>
+        <tr>
+            <td data-label=".....">Wednesday</td>
+            <td data-label="course 1">8.00am-12.00pm</td>
+            <td data-label="course 2">12.00pm-4.00pm</td>
+            
+        </tr>
+        <tr>
+            <td data-label=".....">Thursday</td>
+            <td data-label="course 1">8.00am-12.00pm</td>
+            <td data-label="course 2">12.00pm-4.00pm</td>
+            
+        </tr>
+        <tr>
+            <td data-label=".....">Friday</td>
+            <td data-label="course 1">8.00am-12.00pm</td>
+            <td data-label="course 2">12.00pm-4.00pm</td>
+            
+        </tr>
+        <tr>
+            <td data-label=".....">Saturday</td>
+            <td data-label="course 1">9.00am-1.00pm</td>
+            <td data-label="course 2">1.00pm-5.00pm</td>
+            
+        </tr>
+        <tr>
+            <td data-label=".....">Sunday</td>
+            <td data-label="course 1">9.00am-1.00pm</td>
+            <td data-label="course 2">1.00pm-5.00pm</td>
+            
+        </tr>
+
+        <div class="topic1">
+            <h2>Up Comming Batch Schedule</h2>
+        </div>
+
+        <table class="table1">
+            <thead>
+                <th>.....</th>
+                <th>Course 1</th>
+                <th> Course 2</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-label=".....">Monday</td>
+                    <td data-label="course 1">9.00am-1.00pm</td>
+                    <td data-label="course 2">1.00pm-3.00pm</td>
+                    
+                </tr>
+                <tr>
+                    <td data-label=".....">Tuesday</td>
+                    <td data-label="course 1">9.00am-1.00pm</td>
+                    <td data-label="course 2">1.00pm-3.00pm</td>
+                    
+                </tr>
+                <tr>
+                    <td data-label=".....">Wednesday</td>
+                    <td data-label="course 1">9.00am-1.00pm</td>
+                    <td data-label="course 2">1.00pm-3.00pm</td>
+                    
+                </tr>
+                <tr>
+                    <td data-label=".....">Thursday</td>
+                    <td data-label="course 1">9.00am-1.00pm</td>
+                    <td data-label="course 2">1.00pm-3.00pm</td>
+                    
+                </tr>
+                <tr>
+                    <td data-label=".....">Friday</td>
+                    <td data-label="course 1">9.00am-1.00pm</td>
+                    <td data-label="course 2">1.00pm-3.00pm</td>
+                    
+                </tr>
+                <tr>
+                    <td data-label=".....">Saturday</td>
+                    <td data-label="course 1">10.00am-2.00pm</td>
+                    <td data-label="course 2">2.00pm-4.00pm</td>
+                    
+                </tr>
+                <tr>
+                    <td data-label=".....">Sunday</td>
+                    <td data-label="course 1">10.00am-2.00pm</td>
+                    <td data-label="course 2">2.00pm-4.00pm</td>
+                    
+                </tr>
+    </tbody>
+</table>
+<!-- footer -->
+<footer>
+    <a href="#" class="list-item"><i class="fa fa-envelope-o fa-x"></i></i>&nbsp; abclearning@gmail.com</a>
+    <a href="#" class="list-item"><i class="fa fa-whatsapp fa-x"></i>&nbsp; +945678934,+947689345</a>
+    <a href="#" class="list-item"><i class="fa fa-map-marker fa-x"></i>&nbsp; abclearning, 4575474, gfhdthdfh, fgd4</a>
+<div class="row">
+<div class="col">
+    <div class="centerdiv">
+        <a href="#" class="list-item-1"><i class="fa fa-cc-visa fa-2x"></i></a>
+        <a href="#" class="list-item-1"><i class="fa fa-cc-discover fa-2x"></i></a>
+        <a href="#" class="list-item-1"><i class="fa fa-credit-card fa-2x"></i></a>
+        <a href="#" class="list-item-1"><i class="fa fa-cc-mastercard fa-2x"></i></a>
+        </div>
+
+        <div class="centerdiv-2">
+            <a href="#" class="list-item-2"><i class="fa fa-envelope-o fa-2x"></i></a>
+            <a href="#" class="list-item-2"><i class="fa fa-linkedin-square fa-2x"></i></a>
+            <a href="#" class="list-item-2"><i class="fa fa-twitter fa-2x"></i></a>
+            <a href="#" class="list-item-2"><i class="fa fa-facebook-official fa-2x"></i></a>
+            <a href="#" class="list-item-2"><i class="fa fa-instagram fa-2x"></i></a>
+            </div>
+</div>
+</div>
+
+<hr>
+<p class="copyright" style="color: #fff;">ABC Learning Center Pvt Ltd ©  All Rights Reserved</p>
+</html>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABC Learning Center</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/sitemap.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="https://kit.fontawesome.com/848830b72b.js"crossorigin="anonymous"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function () {
+  $("#dropdown").on("click", () => {
+    $("#dropdown-menu").toggleClass("show");
+  });
+});
+
+$(document).on("click", function (event) {
+  const trigger = $("#dropdown");
+  if (trigger !== event.target && !trigger.has(event.target).length) {
+    $("#dropdown-menu").removeClass("show");
+  }
+});
+</script>
+
+<script>
+  $(document).ready(function () {
+    $("#dropdowns").on("click", () => {
+      $("#dropdown-menus").toggleClass("show");
+    });
+  });
+  
+  $(document).on("click", function (event) {
+    const trigger = $("#dropdowns");
+    if (trigger !== event.target && !trigger.has(event.target).length) {
+      $("#dropdown-menus").removeClass("show");
+    }
+  });
+  </script>
+</head>
+  <body>
+<!-- nav bar -->
+<nav>
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <div class="nav-logo">
+          <img src="Images/logo.jpg" alt="ABC" />
+          <p>ABC<span>LEARNING<spans>CENTER</spans></span></p>
+        </div>
+      </a>
+      <ul class="nav-links">
+            <li class="nav-link"><a href="index.html"  style="color: #fff;">HOME</a></li>
+            <li class="nav-link"><a href="about.html"  style="color: #fff;">ABOUT</a></li>
+            <li class="nav-link"><a href="contact.html"  style="color: #fff;">CONTACT</a></li>
+            
+            
+            <li class="nav-link dropdown" id="dropdown">
+          <a id="dropdown-link" style="color: #fff;">Course <i class="fa-solid fa-caret-down"></i></a>
+            <ul class="dropdown-menu" id="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="courses.html">
+                  All Courses
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="java.html">
+                  Programming in Java
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="net.html">
+                Programming in .Net
+                </a>
+              </li>
+              
+            </ul>
+          </li>
+          <li class="nav-link dropdowns" id="dropdowns">
+            <a id="dropdown-links" style="color: #fff;">Course Schedule <i class="fa-solid fa-caret-down"></i></a>
+              <ul class="dropdown-menus" id="dropdown-menus">
+                <li>
+                  <a class="dropdown-items" href="javaschedule.html">
+                    Programming in Java
+                  </a>
+                </li>
+                <li>
+                  <a class="dropdown-items" href="netschedule.html">
+  
+                    Programming in .Net
+                  </a>
+                </li>
+                
+              </ul>
+            </li>
+         
+          <li class="nav-link"><a href="sitemap.html"  style="color: #fff;">SITEMAP</a></li>
+          <li class="nav-link"><a href="privacy.html"  style="color: #fff;">PRIVACY POLICY</a></li>
+        </ul>
+<!-- login -->
+<div class="nav-button">
+  <button class="btn-login">Login</button>
+</div>
+<!-- Sign up -->
+<div class="nav-buttons">
+<a href="registration.html" class="btn-signup">Sign Up</a>
+</div>
+          
+ </nav>
+
+
+
+
+    
+<!---------------------------------------------------------------about us--------------------------------------------------------------------------->
+
+    <div class="row">
+        <div class="course-col">
+           
+  <ul class="sitemap2"><a href="home.html" style="color: #fff;">HOME</a></ul>
+        
+  <li><a href="home.html" style="color: #fff;">Welcome</a></li>
+  <li><a href="home.html" style="color: #fff;">Ready to find your dream course?</a></li>
+  <li><a href="home.html" style="color: #fff;">Why choose to study It with us?<a></li>
+  <li><a href="home.html" style="color: #fff;">Online Chat</a></li>
+  <li><a href="home.html" style="color: #fff;">Hotline for Inquiries</a></li>
+  <li><a href="Usefeul Links.html" style="color: #fff;">Welcome</a></li>
+
+<br><br>
+        
+            <ul class="sitemap2"><a href="about.html" style="color: #fff;">ABOUT US</a></ul>
+
+            <li><a href="about.html" style="color: #fff;" >Who are we?</a></li>
+            <li><a href="about.html" style="color: #fff;">History</a></li>
+            <li><a href="about.html" style="color: #fff;">Our Goals<a></li>
+            <li><a href="about.html" style="color: #fff;">Our Objectives</a></li>
+            <li><a href="about.html" style="color: #fff;">Meet Our Leaders</a></li>
+            <br><br>       
+       
+            <ul class="sitemap2"><a href="contact.html" style="color: #fff;">CONTACT US</a></ul>
+
+        <li><a href="contact.html" style="color: #fff;">Send Message</a></li>
+        <li><a href="contact.html" style="color: #fff;">Phone</a></li>
+        <li><a href="contact.html" style="color: #fff;">Email<a></li>
+        <li><a href="contact.html" style="color: #fff;">Fax</a></li>
+        <li><a href="contact.html" style="color: #fff;">Hotline</a></li>
+        <li><a href="contact.html" style="color: #fff;">Location Map</a></li>
+    
+        <br><br>  
+
+                <ul class="sitemap2"><a href="privacy.html" style="color: #fff;">PRIVACY POLICY</a></ul>
+    
+            <li><a href="privacy.html" style="color: #fff;">Data privacy</a></li>
+            <li><a href="privacy.html" style="color: #fff;">Open Resource Educational privacy</a></li>
+            <li><a href="privacy.html" style="color: #fff;">Green privacy<a></li>
+            
+        </div>
+        </div>
+    
+
+<!---------------------------------------------------------------footer--------------------------------------------------------------------------->
+<footer>
+  <a href="#" class="list-item"><i class="fa fa-envelope-o fa-x"></i></i>&nbsp; abclearning@gmail.com</a>
+  <a href="#" class="list-item"><i class="fa fa-whatsapp fa-x"></i>&nbsp; +945678934,+947689345</a>
+  <a href="#" class="list-item"><i class="fa fa-map-marker fa-x"></i>&nbsp; abclearning, 4575474, gfhdthdfh, fgd4</a>
+<div class="row">
+<div class="col">
+  <div class="centerdiv">
+      <a href="#" class="list-item-1"><i class="fa fa-cc-visa fa-2x"></i></a>
+      <a href="#" class="list-item-1"><i class="fa fa-cc-discover fa-2x"></i></a>
+      <a href="#" class="list-item-1"><i class="fa fa-credit-card fa-2x"></i></a>
+      <a href="#" class="list-item-1"><i class="fa fa-cc-mastercard fa-2x"></i></a>
+      </div>
+
+      <div class="centerdiv-2">
+          <a href="#" class="list-item-2"><i class="fa fa-envelope-o fa-2x"></i></a>
+          <a href="#" class="list-item-2"><i class="fa fa-linkedin-square fa-2x"></i></a>
+          <a href="#" class="list-item-2"><i class="fa fa-twitter fa-2x"></i></a>
+          <a href="#" class="list-item-2"><i class="fa fa-facebook-official fa-2x"></i></a>
+          <a href="#" class="list-item-2"><i class="fa fa-instagram fa-2x"></i></a>
+          </div>
+</div>
+</div>
+
+<hr>
+<p class="copyright" style="color: #fff;">ABC Learning Center Pvt Ltd © All Rights Reserved</p>
+</html>
