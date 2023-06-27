@@ -1,0 +1,112 @@
+<section id="search-users">
+  <div class="container d-flex flex-column">
+    <div class="heading mt-4">
+      <h2 class="fw-semibold">Search User</h2>
+    </div>
+    <form class="search-user-form d-flex">
+      <input type="text" id="search-user" placeholder="Search" />
+      <button type="button" class="btn btn-outline-secondary btn-search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+    </form>
+     
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+             
+            </li>
+          </ul>
+        </div>
+   
+              <form id="form1" runat="server">
+      <table id="example" class="display" style="width:100%">
+              <thead>
+                  <tr>
+                      <th>Name</th>
+                      <th>Position</th>
+                      <th>Place</th>
+                      <th>Age</th>
+                     <th>Connect</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>Tiger Nixon</td>
+                      <td>System Architect</td>
+                      <td>London</td>
+                      <td>25</td>
+                     <td><button id="btnMyTest001" type="button" class="btn btn-info" data-toggle="modal" data-target="#my_modal" data-age="61">Connect</button></td>
+                      
+                  </tr>
+                  <tr>
+                      <td>Garrett Winters</td>
+                      <td>Accountant</td>
+                      <td>Sri Lanka</td>
+                      <td>46</td>
+                      <td><button id="btnMyTest001" type="button" class="btn btn-info" data-toggle="modal" data-target="#my_modal" data-age="61">Connect</button></td>
+                      
+                  </tr>
+                  <tr>
+                      <td>Ashton Cox</td>
+                      <td>Junior Technical Author</td>
+                      <td>Tokyo</td>
+                      <td>45</td>
+                    <td><button id="btnMyTest001" type="button" class="btn btn-info" data-toggle="modal" data-target="#my_modal" data-age="61">Connect</button></td>
+                      
+                  </tr>
+                  <tr>
+                      <td>Cedric Kelly</td>
+                      <td>Senior Javascript Developer</td>
+                      <td>Edinburgh</td>
+                      <td>30</td>
+                      <td><button id="btnMyTest001" type="button" class="btn btn-info" data-toggle="modal" data-target="#my_modal" data-age="61">Connect</button></td>
+                      
+                  </tr>
+                  <tr>
+                      <td>Airi Satou</td>
+                      <td>Accountant</td>
+                      <td>Tokyo</td>
+                      <td>28</td>
+                     <td><button id="btnMyTest001" type="button" class="btn btn-info" data-toggle="modal" data-target="#my_modal" data-age="61">Connect</button></td>
+                      
+                  </tr>
+                  <tr>
+                      <td>Brielle Williamson</td>
+                      <td>Integration Specialist</td>
+                      <td>New York</td>
+                      <td>22</td>
+                      <td><button id="btnMyTest001" type="button" class="btn btn-info" data-toggle="modal" data-target="#my_modal" data-age="61">Connect</button></td>
+                      
+                  </tr>
+                 
+          </table>
+      </form>
+      
+      <div class="modal fade" id="my_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title" id="myModalLabel">Sample Modal</h4>
+                  </div>
+                  <div class="modal-body">
+      
+                      <div class="form-group">
+                          
+                          <!--<input type="text" id="username" placeholder="User Name" class="form-control"/>-->
+                          <!-- <div id="confirmdetails">Confirmation details go here...</div>-->
+                          <label for="age">Age</label>
+                          <input type="text" id="age" class="form-control"/>
+      
+                          
+                      </div>
+      
+      
+                  </div>
+                  <div class="modal-footer">
+                      <!-- onclick="cancelRecord()" -->
+                      <button type="button" class="btn btn-default" data-dismiss="modal" >OK</button>
+                  </div>
+              </div>
+          </div>
+      </div>

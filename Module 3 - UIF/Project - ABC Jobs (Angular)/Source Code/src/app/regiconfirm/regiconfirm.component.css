@@ -1,0 +1,29 @@
+.joinnow
+{
+    background-color: #eff6ff;
+    padding: 140px 100px;
+}
+.form-group img{
+    position: relative;
+    width: 30%;
+    left: 35%;
+    
+}
+.mail{
+    position: relative;
+    left: 20%;
+}
+.login
+{
+    background-color: #ffffff;
+    padding: 20px 30px;
+}
+
+@media screen and (max-width:600px)
+{
+
+    .joinnow
+{
+    padding: 140px 30px;
+}
+}
