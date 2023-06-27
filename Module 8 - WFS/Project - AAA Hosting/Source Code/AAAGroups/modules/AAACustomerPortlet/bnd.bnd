@@ -1,0 +1,4 @@
+Bundle-Name: AAACustomerPortlet
+Bundle-SymbolicName: com.lithna.aaa
+Bundle-Version: 1.0.0
+Export-Package: com.lithna.aaa.constants
