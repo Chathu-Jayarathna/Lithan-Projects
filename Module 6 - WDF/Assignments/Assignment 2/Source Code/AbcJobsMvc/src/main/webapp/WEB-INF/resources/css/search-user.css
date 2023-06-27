@@ -1,0 +1,17 @@
+.search-user-form {
+  width: 500px;
+}
+
+input {
+  padding: 6px 20px;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 100%;
+}
+
+.btn-search {
+  padding: 6px 20px;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-left: none;
+}
