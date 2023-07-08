@@ -64,7 +64,7 @@ spring.datasource.password=<YOUR_DB_PASSWORD>
 ## Screenshot
 
 <p>Home Page</p>
-<img src=".Project - ABC Car Portal/Images/1.png" alt="home_page" width="50%"/>
+<img src="https://github.com/Chathu-Jayarathna/Lithan-Projects/blob/2589ab75ca44d2e165be6969564829db11827b2f/Module%209%20-%20ADP/Project%20-%20ABC%20Car%20Portal/Images/1.png." alt="home_page" width="50%"/>
 <p>Login</p>
 <img src="./images/login.png" alt="login" width="50%"/>
 <p>Profile page</p>
