@@ -61,3 +61,14 @@ spring.datasource.password=<YOUR_DB_PASSWORD>
 
 4. **Run Java Application and open [http://localhost:8080](http://localhost:8080)**
 
+5. ## Screenshots
+
+   
+
+   <img src="Module 9 - ADP/Project - ABC Car Portal/Images/1.png" alt="home_page" width="50%"/>
+![1](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/ae184853-1f11-4216-84cd-ad204db95c2b)
+
+   
+
+   
+
