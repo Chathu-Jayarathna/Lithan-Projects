@@ -1,12 +1,3 @@
-![17](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/5aeadb83-9cf4-4775-8668-85887c97ab08)
-![Uploading 16.png…]()
-![Uploading 15.png…]()
-![Uploading 14.png…]()
-![Uploading 13.png…]()
-![Uploading 12.png…]()
-![Uploading 11.png…]()
-![Uploading 10.png…]()
-![Uploading 9.png…]()
 # ABC-Cars-Portal
 
 ## Project Overview
@@ -72,12 +63,25 @@ spring.datasource.password=<YOUR_DB_PASSWORD>
 
 5. ## Screenshots
 
+   <img src="[./images/home.png](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/17c14b61-7194-49d7-97ef-5bd696c3390c)" alt="home_page" width="50%"/>
+
 ![1](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/17c14b61-7194-49d7-97ef-5bd696c3390c)
 ![2](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/fc57fc38-23f1-48ce-b1a5-c3c3cd204717)
 ![3](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/a6c2dd4e-3f17-4227-8653-eac5edb28e67)
 ![4](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/471c0a13-46b1-4cae-ba9d-65c55d54a8f5)
 ![5](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/98324d51-b836-4f6a-a254-59cc1f4de09f)
 ![6](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/eb796763-56a6-4a66-984b-324a8d8c5145)
+![7](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/50f255ad-0b14-42cb-85e3-5f019428b997)
+![8](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/c820eed5-e182-4b99-a4b9-f20d4f8bb86e)
+![9](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/a28942fa-c6f8-4334-b469-2d8ee2f026a5)
+![10](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/6c07b41d-6956-4d09-83cb-1d00331f38c0)
+![11](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/3a9231d5-6475-45b9-bb44-e4fab8b83652)
+![12](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/b3e85f16-669f-4125-a0c1-8c38ce6229ca)
+![13](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/f11ae206-3a93-48ea-83c0-fdb0489a858c)
+![14](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/10193977-2689-4347-86e4-c6e2b6d841e8)
+![15](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/1e09c49a-0aa2-4b38-8ab7-cd5910691cb5)
+![16](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/af879c25-f9eb-408b-b47f-ffe9b7f0c2e3)
+![17](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/02d06675-1227-4b07-a21a-3cfcf826e8ca)
 
 
    
