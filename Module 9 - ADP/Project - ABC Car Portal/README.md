@@ -1,3 +1,12 @@
+![17](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/5aeadb83-9cf4-4775-8668-85887c97ab08)
+![Uploading 16.png…]()
+![Uploading 15.png…]()
+![Uploading 14.png…]()
+![Uploading 13.png…]()
+![Uploading 12.png…]()
+![Uploading 11.png…]()
+![Uploading 10.png…]()
+![Uploading 9.png…]()
 # ABC-Cars-Portal
 
 ## Project Overview
@@ -63,10 +72,13 @@ spring.datasource.password=<YOUR_DB_PASSWORD>
 
 5. ## Screenshots
 
-   
+![1](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/17c14b61-7194-49d7-97ef-5bd696c3390c)
+![2](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/fc57fc38-23f1-48ce-b1a5-c3c3cd204717)
+![3](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/a6c2dd4e-3f17-4227-8653-eac5edb28e67)
+![4](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/471c0a13-46b1-4cae-ba9d-65c55d54a8f5)
+![5](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/98324d51-b836-4f6a-a254-59cc1f4de09f)
+![6](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/eb796763-56a6-4a66-984b-324a8d8c5145)
 
-   <img src="Module 9 - ADP/Project - ABC Car Portal/Images/1.png" alt="1" width="50%"/>
-![1](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/ae184853-1f11-4216-84cd-ad204db95c2b)
 
    
 
