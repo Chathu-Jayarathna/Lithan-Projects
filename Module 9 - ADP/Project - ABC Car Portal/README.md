@@ -63,8 +63,6 @@ spring.datasource.password=<YOUR_DB_PASSWORD>
 
 5. ## Screenshots
 
-   <img src="[./images/home.png](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/17c14b61-7194-49d7-97ef-5bd696c3390c)" alt="home_page" width="50%"/>
-
 ![1](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/17c14b61-7194-49d7-97ef-5bd696c3390c)
 ![2](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/fc57fc38-23f1-48ce-b1a5-c3c3cd204717)
 ![3](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/a6c2dd4e-3f17-4227-8653-eac5edb28e67)
