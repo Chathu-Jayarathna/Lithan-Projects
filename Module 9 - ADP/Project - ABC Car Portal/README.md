@@ -65,7 +65,7 @@ spring.datasource.password=<YOUR_DB_PASSWORD>
 
    
 
-   <img src="Module 9 - ADP/Project - ABC Car Portal/Images/1.png" alt="home_page" width="50%"/>
+   <img src="Module 9 - ADP/Project - ABC Car Portal/Images/1.png" alt="1" width="50%"/>
 ![1](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/ae184853-1f11-4216-84cd-ad204db95c2b)
 
    
