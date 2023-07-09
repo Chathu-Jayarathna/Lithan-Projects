@@ -16,7 +16,7 @@
 
 ![20](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/2ca1e068-c0e7-4885-bd99-f57f688361b2)
 
-#### Poated Job List
+#### Posted Job List
 
 ![11](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/b04c5f78-6bb9-4647-af02-f1e680b322f4)
 
