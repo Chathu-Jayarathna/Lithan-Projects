@@ -35,3 +35,13 @@
 2. **Login to the Portal:** Staff members can log in to their accounts.
 3. **Product Management:** Staff members have the authority to manage products on the portal.
 4. **Product Category Management:** Staff members can oversee and modify product categories.
+
+**The following actions are accessible to all users, including User, Admin, and Staff:**
+
+1. **Visit Home Page:** Navigate to the main landing page of the website.
+2. **View Product List:** Browse and explore the available list of products.
+3. **Search Products:** Utilize the search functionality to find specific products.
+4. **About Us Page:** Access information about the background and purpose of the website.
+5. **Contact Us Page:** Connect with the website administrators or support team.
+6. **Privacy Policy:** Review the privacy policy governing the use of personal information.
+7. **Terms and Conditions:** Familiarize yourself with the terms and conditions regulating the use of the website.
