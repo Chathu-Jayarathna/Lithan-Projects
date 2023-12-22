@@ -72,10 +72,40 @@ spring.datasource.password=<YOUR_DB_PASSWORD>
 #### Landing Page
 ![image](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/2eb5ef33-3424-4e3e-8c8d-e2641d3aa6a1)
 
-
 #### About US
-![screencapture-localhost-9090-about-us-2023-12-16-22_29_05](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/ffe1c2c6-2dea-4966-bf2e-c49d35b4aeac)
+![image](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/6d2de940-4d73-4820-baa5-3db38cb9c9bb)
 
 #### Contact US
-![screencapture-localhost-9090-contact-us-2023-12-16-22_58_00](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/234e7e87-2dc3-4090-a5f3-8da686396c3b)
+![image](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/f27ae0e1-5bcc-485f-9b76-77f128b11e2c)
+
+#### Registration
+![image](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/567ba905-55db-43b8-b85a-f8f075668662)
+
+#### Login 
+![image](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/62d6fa2f-cd4c-4d98-beff-90a26a739f03)
+
+#### Admin Dashboard
+![image](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/14974d4d-ab92-446e-8afd-5d0bc2f8bd43)
+
+#### Admin Product Management
+![image](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/5a58c119-0030-4f1a-90ee-7f3741037e15)
+
+#### Add Products Form
+![image](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/967722d4-8d0a-49ab-b355-04a677a7ed9c)
+
+#### Cart
+![image](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/fa9609a6-af81-4a5f-9842-bc33b2bab9ab)
+
+#### User Dashboard
+![image](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/e40eafb7-d03e-40f0-b5bf-de8bf6553d53)
+
+#### Staff Dashboard
+![image](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/cf979b7c-de64-41a5-b066-47bb6fa78870)
+
+#### Category Management
+![image](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/2a01018d-c937-4e4b-98e5-5ea8f542d9fc)
+
+
+
+
 
