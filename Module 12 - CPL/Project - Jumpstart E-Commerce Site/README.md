@@ -70,7 +70,8 @@ spring.datasource.password=<YOUR_DB_PASSWORD>
 5. ## Project Result
 
 #### Landing Page
-![screencapture-localhost-9090-home-2023-12-21-09_00_18](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/69d84431-4005-4e32-a22d-d45b3bf59736)
+![image](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/2eb5ef33-3424-4e3e-8c8d-e2641d3aa6a1)
+
 
 #### About US
 ![screencapture-localhost-9090-about-us-2023-12-16-22_29_05](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/ffe1c2c6-2dea-4966-bf2e-c49d35b4aeac)
