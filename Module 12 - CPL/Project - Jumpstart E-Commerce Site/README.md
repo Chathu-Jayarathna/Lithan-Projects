@@ -5,6 +5,7 @@
 
 **Welcome to the JUMPSTART Ecommerce Site! This platform is designed to cater to three types of users: Users, Administrators, and Staff. Each user type has specific functions they can perform within the portal.**
 
+## User
 **Users can perform the following functions:**
 
 1. Register in the Portal: New users can sign up for an account.
@@ -15,6 +16,7 @@
 6. View Products: Users can view details of products in the catalog.
 7. View Order History: Users can check their order history.
 
+## Admin
 **Administrators have additional functionalities for managing the portal effectively:**
 
 1. Register in the Portal: Administrators can create an account on the portal.
@@ -26,6 +28,7 @@
 7. Product Category Management: Administrators can oversee and modify product categories.
 8. Add Products: Administrators can add new products to the catalog.
 
+# Staff
 **Staff members have specific responsibilities related to product and category management:**
 
 1. Register in the Portal: Staff members can register on the portal.
