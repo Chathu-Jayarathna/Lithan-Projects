@@ -67,3 +67,14 @@ spring.datasource.password=<YOUR_DB_PASSWORD>
 ```
 4. **Run Java Application and open [http://localhost:9090](http://localhost:9090)**
 
+5. ## Project Result
+
+#### Landing Page
+![screencapture-localhost-9090-home-2023-12-21-09_00_18](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/69d84431-4005-4e32-a22d-d45b3bf59736)
+
+#### About US
+![screencapture-localhost-9090-about-us-2023-12-16-22_29_05](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/ffe1c2c6-2dea-4966-bf2e-c49d35b4aeac)
+
+#### Contact US
+![screencapture-localhost-9090-contact-us-2023-12-16-22_58_00](https://github.com/Chathu-Jayarathna/Lithan-Projects/assets/124165734/234e7e87-2dc3-4090-a5f3-8da686396c3b)
+
