@@ -42,3 +42,28 @@
 5. **Contact Us Page:** Connect with the website administrators or support team.
 6. **Privacy Policy:** Review the privacy policy governing the use of personal information.
 7. **Terms and Conditions:** Familiarize yourself with the terms and conditions regulating the use of the website.
+
+## System Requirements
+
+Java Development Kit (JDK) 8 or later
+Spring Tool Suite (STS) for importing and running the project
+MySQL database server
+Web browser for accessing the application
+
+## How to run
+1. **Import Existing Project into STS**
+2. **Create MySQL database**
+
+```bash
+mysql> create database jumpstart1
+```
+
+3. **Setup application.properties**
+
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/jumpstart1
+spring.datasource.username=<YOUR_DB_USERNAME>
+spring.datasource.password=<YOUR_DB_PASSWORD>
+```
+4. **Run Java Application and open [http://localhost:9090](http://localhost:9090)**
+
