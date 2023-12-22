@@ -45,9 +45,9 @@
 
 ## System Requirements
 
-Java Development Kit (JDK) 8 or later
-Spring Tool Suite (STS) for importing and running the project
-MySQL database server
+Java Development Kit (JDK) 8 or later <br>
+Spring Tool Suite (STS) for importing and running the project <br>
+MySQL database server <br>
 Web browser for accessing the application
 
 ## How to run
